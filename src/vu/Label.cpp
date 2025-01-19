@@ -108,7 +108,7 @@ void Label::setShrinkToFitEnabled( bool enable )
 
 void Label::setWrapEnabled( bool enable )
 {
-	if( mWrapEnabled = enable )
+	if( mWrapEnabled == enable )
 		return;
 
 	mWrapEnabled = enable;
