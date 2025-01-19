@@ -4,7 +4,7 @@ set( CMAKE_VERBOSE_MAKEFILE ON )
 project( ViewTests )
 
 if( NOT CINDER_PATH )
-	set( CINDER_PATH "../../../../.." CACHE STRING "Path to Cinder directory" )
+	set( CINDER_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../../../../../.." CACHE STRING "Path to Cinder directory" )
 endif()
 
 get_filename_component( CINDER_PATH "${CINDER_PATH}" ABSOLUTE )
@@ -39,5 +39,5 @@ ci_make_app(
 	SOURCES         ${APP_SOURCES}
 #	INCLUDES        ${APP_INCLUDES}
 	CINDER_PATH     ${CINDER_PATH}
-	BLOCKS          ../../../../Cinder-View
+	BLOCKS          Cinder-View
 )

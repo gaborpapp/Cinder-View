@@ -10,22 +10,22 @@ if( NOT TARGET Cinder-View )
 	ci_log_v( "VIEW_LIB_PATH: ${VIEW_LIB_PATH}" )
 
 	list( APPEND VIEW_SOURCES
-		${VIEW_SOURCE_PATH}/ui/Control.cpp
-		${VIEW_SOURCE_PATH}/ui/Filter.cpp
-		${VIEW_SOURCE_PATH}/ui/GestureTracker.cpp
-		${VIEW_SOURCE_PATH}/ui/Graph.cpp
-		${VIEW_SOURCE_PATH}/ui/Image.cpp
-		${VIEW_SOURCE_PATH}/ui/ImageView.cpp
-		${VIEW_SOURCE_PATH}/ui/Interface3d.cpp
-		${VIEW_SOURCE_PATH}/ui/Label.cpp
-		${VIEW_SOURCE_PATH}/ui/Layer.cpp
-		${VIEW_SOURCE_PATH}/ui/Layout.cpp
-		${VIEW_SOURCE_PATH}/ui/Renderer.cpp
-		${VIEW_SOURCE_PATH}/ui/ScrollView.cpp
-		${VIEW_SOURCE_PATH}/ui/Suite.cpp
-		${VIEW_SOURCE_PATH}/ui/TextManager.cpp
-		${VIEW_SOURCE_PATH}/ui/TextField.cpp
-		${VIEW_SOURCE_PATH}/ui/View.cpp
+		${VIEW_SOURCE_PATH}/vu/Control.cpp
+		${VIEW_SOURCE_PATH}/vu/Filter.cpp
+		${VIEW_SOURCE_PATH}/vu/GestureTracker.cpp
+		${VIEW_SOURCE_PATH}/vu/Graph.cpp
+		${VIEW_SOURCE_PATH}/vu/Image.cpp
+		${VIEW_SOURCE_PATH}/vu/ImageView.cpp
+		${VIEW_SOURCE_PATH}/vu/Interface3d.cpp
+		${VIEW_SOURCE_PATH}/vu/Label.cpp
+		${VIEW_SOURCE_PATH}/vu/Layer.cpp
+		${VIEW_SOURCE_PATH}/vu/Layout.cpp
+		${VIEW_SOURCE_PATH}/vu/Renderer.cpp
+		${VIEW_SOURCE_PATH}/vu/ScrollView.cpp
+		${VIEW_SOURCE_PATH}/vu/Suite.cpp
+		${VIEW_SOURCE_PATH}/vu/TextField.cpp
+		${VIEW_SOURCE_PATH}/vu/TextManager.cpp
+		${VIEW_SOURCE_PATH}/vu/View.cpp
 	)
 
 	# cppformat
